@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
   <div class="container">
-  <a class="navbar-brand" href="{{route('home_path')}}">Laracarte</a>
+  <a class="navbar-brand" href="{{route('home_path')}}">{{config('app.name')}}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

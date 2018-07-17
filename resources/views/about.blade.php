@@ -3,9 +3,9 @@
 <div class="container">
 	<div class="row">
 		<div class="col-6">
-			<h2>What is Laracarte ?</h2>
+			<h2>What is {{config('app.name')}} ?</h2>
 			<p >
-				 laracarte is a clone app of laramap.com
+				 {{config('app.name')}} is a clone app of laramap.com
 			</p>
 		</div>
 	</div>
@@ -29,7 +29,7 @@
 		<div class="col-12">
 			<h2>What is laramap ?</h2>
 			<p>
-				Laramap is the web application that inspires laracarte</a>
+				Laramap is the web application that inspires {{config('app.name')}}</a>
 			</p>
 			<p>More info see <a href="laramap.com/about">laramap.com</a></p>
 		</div>			
@@ -37,7 +37,7 @@
 
 	<div class="row">
 		<div class="col-12">
-			<h2>Which tools and servicies are used in laracarte ?</h2>
+			<h2>Which tools and servicies are used in {{config('app.name')}} ?</h2>
 			<p>
 				Basically it is built on laravel &amp; bootstrap frameworks. Other services for nailling forr instance are also used.
 				<ul>
