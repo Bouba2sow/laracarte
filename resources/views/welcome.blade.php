@@ -1,4 +1,4 @@
-@extends('layouts.base',['title'=>"Artisan's map"])
+@extends('layouts.base',['title'=>"Home"])
 @section('content')
 <h1 class="text-center">Map here !!!!</h1>
 @endsection
